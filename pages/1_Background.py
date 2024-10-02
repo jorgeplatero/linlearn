@@ -26,8 +26,8 @@ st.write(
         # Linear Classification
 
         In this app we'll refresh your memory about linear equations while also helping you see a line as 
-        a linear classifier. Even if you already know everything about lines. Here we take the first steps 
-        towards undertanding complex AI models such as neural networks.
+        a linear classifier. Here we take the first steps towards undertanding complex AI models such as neural 
+        networks.
 
         ## Linear Equation
 
