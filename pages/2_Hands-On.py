@@ -79,8 +79,15 @@ with open(file_path) as f:
 # -------------------------------------------------------------
 st.set_page_config(
     page_title='Playground', 
-    page_icon='🎓'
+    page_icon='img/ico.ico'
 )
+
+#title
+col1, col2 = st.columns([.2, .8])
+with col1:
+    st.image('img/logo.png')
+with col2:
+    st.title('LinLearn | Hands-On')
 
 #importing random data
 np.random.seed(46)
