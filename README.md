@@ -1,4 +1,4 @@
-# LinLearn: Learn by seeing, explore linear classification visually
+# LinLearn: Explore linear classification interactively!
 
 <img src='https://github.com/jorgeplatero/linlearn/blob/0e8b8e9e87a2eeff9a19eae29201ec5eff9c9efe/img/logo.png' width='150'/>
 
