@@ -1,5 +1,7 @@
 # LinLearn: Learn by seeing, explore linear classification visually
 
+<img src='https://github.com/jorgeplatero/linlearn/blob/0e8b8e9e87a2eeff9a19eae29201ec5eff9c9efe/img/logo.png' width='150'/>
+
 ## Description
 
 This application provides an interactive platform to explore the fundamental concepts of linear 
