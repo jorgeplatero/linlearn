@@ -35,4 +35,4 @@ boundary and classification results
 
 ## App Link 
 
-Dashboard Streamlit: <a style='text-decoration: none;' href='https://linlearn.streamlit.app/.app/' target='_blank'>link</a>.
+Dashboard Streamlit: <a style='text-decoration: none;' href='https://linlearn.streamlit.app' target='_blank'>link</a>.
