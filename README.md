@@ -31,6 +31,6 @@ boundary and classification results
 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg' width='50' height='50'/>
 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original-wordmark.svg' width='60' height='60'/> 
 
-## Link for the a App
+## App Link 
 
 Dashboard Streamlit: <a style='text-decoration: none;' href='https://linlearn.streamlit.app/.app/' target='_blank'>link</a>.
