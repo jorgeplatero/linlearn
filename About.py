@@ -17,7 +17,7 @@ with open(file_path) as f:
 #naming the page
 # -------------------------------------------------------------
 st.set_page_config(
-    page_title='About', 
+    page_title='LinLearn | About', 
     page_icon='img/ico.ico'
 )
 
@@ -26,7 +26,7 @@ col1, col2 = st.columns([.2, .8])
 with col1:
     st.image('img/logo.png')
 with col2:
-    st.title('LinLearn | About')
+    st.title('About')
 
 #explanation
 st.write(
