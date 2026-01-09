@@ -8,7 +8,7 @@ the impact of their adjustments on the decision boundary line and model accuracy
 
 Ensure you have Python 3.11 installed on your system.
 
-For Linux-based systems (Ubuntu/Debian), install the virtual environment support:
+Install the virtual environment support:
 
 ```bash
 sudo apt update && sudo apt install python3.11-venv
