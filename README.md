@@ -16,7 +16,7 @@ sudo apt update && sudo apt install python3.11-venv
 
 ### Installation
 
-Follow the steps below to set up the environment and install dependencies:
+Clone the repository and install the dependencies:
 
 ```bash
 #clone the repository
