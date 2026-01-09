@@ -1,38 +1,58 @@
 # Web App for Linear Classification Exploration
 
-<img src='https://github.com/jorgeplatero/linlearn/blob/0e8b8e9e87a2eeff9a19eae29201ec5eff9c9efe/img/logo.png' width='150'/>
-
-## Description
-
 This application provides an interactive platform to explore the fundamental concepts of linear 
 classification. By manipulating the model weights (slope and intercept) directly, users can observe 
 the impact of their adjustments on the decision boundary line and model accuracy in real-time.
 
-**Key Features**
+### Prerequisites
 
-* Visual exploration: see the linear model line dynamically adjust over the data as you change the 
-weights and bias
-* Accuracy feedback: get real-time insights into the model's performance based on classification 
-accuracy
+Ensure you have Python 3.11 installed on your system.
 
-**Benefits**
+For Linux-based systems (Ubuntu/Debian), install the virtual environment support:
 
-* Hands-on learning: engage with the concepts of linear models through interactive manipulation
-* Visual understanding: gain a deeper understanding of how model parameters influence the decision 
-boundary and classification results
-* Intuitive interface: the user-friendly design makes it accessible for learners of all levels
+```bash
+sudo apt update && sudo apt install python3.11-venv
+```
 
-**Target Audience**
+### Installation
 
-* Students learning about linear classification algorithms
-* Data science enthusiasts looking for a visual and interactive way to explore model parameters
-* Anyone interested in gaining a deeper understanding of how linear models work
+Follow the steps below to set up the environment and install dependencies:
 
-## Technologies
+```bash
+#clone the repository
+git clone https://github.com/jorgeplatero/linlearn.git
+cd linlearn-web-app
 
-<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg' width='50' height='50'/>
-<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original-wordmark.svg' width='60' height='60'/> 
+#create the virtual environment
+python -m venv venv
 
-## App Link 
+#activate the virtual environment
+source venv/bin/activate
 
-Dashboard Streamlit: <a style='text-decoration: none;' href='https://linlearn.streamlit.app' target='_blank'>link</a>.
+#install dependencies
+pip install -r requirements.txt
+```
+
+### How to Run the Application
+
+With the virtual environment activated, run the following command to start the app locally:
+
+```bash
+streamlit run app.py
+```
+
+### Technologies
+
+| Component | Technology | Version | Description |
+| :--- | :--- | :--- | :--- |
+| **Frontend/App** | **Streamlit** | `1.32.2` | Framework for web application development |
+| **Data Analysis** | **Pandas** | `2.2.1` | Library for data manipulation |
+| **Visualization** | **Plotly** |`5.20.0` | Library for dynamic and interactive charts |
+| **Language** | **Python** | `>=3.11` | Language for script development |
+| **Enviroment** | **Venv** | `-` | Manager for dependency isolation |
+
+### Deployment
+
+The web application is available via Streamlit Cloud.
+
+Link to the web app: https://linlearn.streamlit.app
